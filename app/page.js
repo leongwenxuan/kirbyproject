@@ -5,20 +5,18 @@ import Image from 'next/image';
 
 export default function Home() {
   const contentList = [
-    { title: "Content 1", image: "/images/1.jpg" },
-    { title: "Content 2", image: "/images/2.jpg" },
-    { title: "Content 3", image: "/images/3.jpg" },
-    { title: "Content 4", image: "/images/4.jpg" },
-    { title: "Content 5", image: "/images/5.jpg" },
-    { title: "Content 6", image: "/images/6.jpg" },
-    { title: "Content 7", image: "/images/7.jpg" },
-    { title: "Content 8", image: "/images/8.jpg" },
-    { title: "Content 9", image: "/images/9.jpg" },
-    { title: "Content 10", image: "/images/10.jpg" },
-    { title: "Content 11", image: "/images/11.jpg" },
-    { title: "Content 12", image: "/images/12.jpg" },
-    { title: "Content 13", image: "/images/13.jpg" },
-    { title: "Content 14", image: "/images/14.jpg" },
+    { title: "Hey babe :> Looking cute here", image: "/images/1.jpg" },
+    { title: "Thanks always entertaining my bullshit", image: "/images/2.jpg" },
+    { title: "Bringing me to experience new things together", image: "/images/3.jpg" },
+    { title: "Dragging me to your fav food places", image: "/images/4.jpg" },
+    { title: "Making me laugh whenever your around", image: "/images/5.jpg" },
+    { title: "Living with my gay ass photo poses", image: "/images/6.jpg" },
+    { title: "Feeding me so much.......", image: "/images/8.jpg" },
+    { title: "Always taking the cutest pictures of us", image: "/images/9.jpg" },
+    { title: "Showing me your most vulnerable side", image: "/images/10.jpg" },
+    { title: "Exploring places together", image: "/images/12.jpg" },
+    { title: "Going on spontaneous suppers with me", image: "/images/13.jpg" },
+    { title: "Love you, See you soon :>>> - Xuan", image: "/images/14.jpg" },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
